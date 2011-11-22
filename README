@@ -1,0 +1,9 @@
+Android application for setting up an android-enhanced landmark hunt.
+
+This application was written for a game with the ofllowing formula:
+	1. Teams are sent to find local landmarks as fast as they can.
+	2. The application provides hints to find the location and uses GPS to determine when they've reached it.
+	3. Questions are then asked that can be answered from information on location
+	4. Points are rewarded to groups based on locations reached, hints used, and questions answered
+
+The landmark hunt is customizable through editing the destinations.xml file located in res/xml folder.

@@ -9,6 +9,10 @@ import android.widget.ListView;
 import android.widget.TextView;
 
 
+/**
+ * @author Alex Decker
+ *
+ */
 public class LocationList extends ListActivity {
 	ScavengerHunt myApp;
 	TextView pointView;

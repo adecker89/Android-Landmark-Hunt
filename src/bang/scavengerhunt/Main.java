@@ -11,8 +11,7 @@ import android.view.View.OnClickListener;
 import android.widget.Button;
 
 /**
- * Entry activity for the application.
- * Eventually should display a menu of options.
+ * Main splash screen with a couple options
  * @author Alex Decker
  */
 public class Main extends Activity {
