@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<destinationList>
+	<destination name="Illini Union" latitude="40.109396" longitude="-88.227218">
+		<hintList>
+			<textHint points="16">Established in 1919, this organization began meeting in the rented first floor of the YMCA until it moved to this building of the same name, built in 1941.</textHint>
+			<textHint points="10">This American Georgian building is adorned with two clock towers, one facing north and the other south.</textHint>
+			<textHint points="6">Found on the main quad, this building offers several hotel rooms. In the basement can be found a food court, health center, and bowling alley.</textHint>
+			<imageHint src="union.jpg"/>
+			<radarHint/>
+		</hintList>
+		<questionList>
+			<question points ="9"> 
+				<prompt>Only three wings of the Illini Union were built. What building occupies the space where the fourth might sit?</prompt>
+				<answer>(Harker( Hall)?|Chem(ical)? Lab(oratory)?|Law( Building)?)</answer>
+			</question>
+		</questionList>
+	</destination>
+	<destination name="Engineering Hall" latitude="40.110850" longitude="-88.226949">
+		<hintList>
+			<textHint points="16">This building was the first University building constructed solely for the use of a single college.</textHint>
+			<textHint points="10">This iconic engineering building underwent an $8M renovation between 1998 and 2000, and now houses much of the administrative staff for the college.</textHint>
+			<textHint points="6">Situated on Green Street, this building overlooks the Bardeen Quad.</textHint>
+			<imageHint src="enghall.jpg"/>
+			<radarHint/>
+		</hintList>
+		<questionList>
+			<question points ="9"> 
+				<prompt>What words adorn the main entrance to Engineering Hall?</prompt>
+				<answer>College of Engineering</answer>
+			</question>
+		</questionList>
+	</destination>
+	<destination name="Main Library" latitude="40.104703" longitude="-88.228883">
+		<hintList>
+			<textHint points="16">This building, though not known for its paintings, houses "The Four Hemispheres: Polar, Celestial, Eastern, Western", a mural by Barry Faulkner, and a series of 6 oil paintings depicting the first six presidents of the University.</textHint>
+			<textHint points="10">Sitting south of the Main Quad, this large building was constructed in three distinct parts between 1923 and 1927.</textHint>
+			<textHint points="6">This large library recently celebrated its 10 millionth volume.</textHint>
+			<imageHint src="mainlib.jpg"/>
+			<radarHint/>
+		</hintList>
+		<questionList>
+			<question points ="9"> 
+				<prompt>How many chimneys adorn the roof of the Main Library?</prompt>
+				<answer>(8|eight)</answer>
+			</question>
+		</questionList>
+	</destination>
+	<destination name="Assembly Hall" latitude="40.096247" longitude="-88.235898">
+		<hintList>
+			<textHint points="16">Designed by Max Abramovitz, the $8.7M building is one of the world's largest edge-supported structures.</textHint>
+			<textHint points="10">Built in 1963, this 400-foot diameter of the building reaches its peak at 128 feet above the center floor.</textHint>
+			<textHint points="6">The center floor of this large arena can also be covered with 225 sectional panels to create a regulation basketball court.</textHint>
+			<imageHint src="asmhall.jpg"/>
+			<radarHint/>
+		</hintList>
+		<questionList>
+			<question points ="9"> 
+				<prompt>What shape is the drive to the main entrance of Assembly Hall?</prompt>
+				<answer>(curved?|parabol(ic|a))</answer>
+			</question>
+		</questionList>
+	</destination>
+	<destination name="Observatory" latitude="40.105194" longitude="-88.226040">
+		<hintList>
+			<textHint points="16">Erected near the main quad in 1886, this small building was listed on the National Register of Historic Places ninety years later, then made a National Historic Landmark three years after that, in 1989.</textHint>
+			<textHint points="10">The positioning of this build is sometimes rumored to be the reasoning behind building the Undergraduate Library underground, though this is little more than a myth.</textHint>
+			<textHint points="6">In its early life, near the turn of the century, this building played a large role in the discovery of over one hundred binary stars.</textHint>
+			<imageHint src="observe.jpg"/>
+			<radarHint/>
+		</hintList>
+		<questionList>
+			<question points ="9"> 
+				<prompt>The observatory is located due north of which historic field?</prompt>
+				<answer>(The )?Morrow Plots?</answer>
+			</question>
+		</questionList>
+	</destination>
+	<destination name="Memorial Stadium" latitude="40.099295" longitude="-88.235953">
+		<hintList>
+			<textHint points="16">The general contractor of this $1.7M project, begin in 1923, was English Brothers of Champaign, who are in business to this day.</textHint>
+			<textHint points="10">A massive renovation project was unveiled for this 60,000 seat landmark in the fall of 2005.</textHint>
+			<textHint points="6">This stadium is dedicated as a memorial to the Illinois men who died in World War I and World War II.</textHint>
+			<imageHint src="stadium.jpg"/>
+			<radarHint/>
+		</hintList>
+		<questionList>
+			<question points ="9"> 
+				<prompt>What yard is the ball on?</prompt>
+				<answer>(25(th)?|twenty(-| )?fi(fth|ve))</answer>
+			</question>
+		</questionList>
+	</destination>
+	<destination name="Krannert Center for the Performing Arts" latitude="40.108074" longitude="-88.222685">
+		<hintList>
+			<textHint points="16">This building, situated to the East of the Main Quad, cost $1M less than the Boneyard Detention Basin on Green and 1st.</textHint>
+			<textHint points="10">Designed by Max Abramovitz, the air conditioning plant for this large building sits atop the nearby Illinois Street Residence Hall.</textHint>
+			<textHint points="6">With 5 theaters seating over 4,400, this complex is a popular venue for student performances and professional recordings alike.</textHint>
+			<imageHint src="krannert.jpg"/>
+			<radarHint/>
+		</hintList>
+		<questionList>
+			<question points ="9"> 
+				<prompt>The amphitheater of Krannart faces in which direction? (Which way do the audience face?)</prompt>
+				<answer>W(est)?</answer>
+			</question>
+		</questionList>
+	</destination>
+	<destination name="Digital Computing Lab" latitude="40.113144" longitude="-88.226445">
+		<hintList>
+			<textHint points="16">Six years after birthing a new department, this building was expanded in 1963, which included dedicated "tape cutting rooms."</textHint>
+			<textHint points="10">This same addition engulfed the original building and doubled its floorplan to its current size.</textHint>
+			<textHint points="6">Many elements of Computer Science Department still reside in this building, as well as CITES and several EWS labs.</textHint>
+			<imageHint src="dcl.jpg"/>
+			<radarHint/>
+		</hintList>
+		<questionList>
+			<question points ="9"> 
+				<prompt>Which three sides of the original building did the addition cover? (Answer with NSEW, no puncuation.)</prompt>
+				<answer>(SEW|SWE|EWS|WES|WSE|ESW)</answer>
+			</question>
+		</questionList>
+	</destination>
+</destinationList>

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<destinationList>
+	<destination name="Altgeld Hall" latitude="40.109328" longitude="-88.228371">
+		<hintList>
+			<textHint points="10">This building is 1/4th a castle.</textHint>
+			<textHint points="8">Contains a bell tower.</textHint>
+			<imageHint points="6" src="front"/>
+			<radarHint points="4"/>
+		</hintList>
+		<questionList>
+			<question points ="10"> 
+				<prompt>What is your name?</prompt>
+				<answer>Arthur</answer> 
+			</question>
+			<question> 
+				<prompt>What is your quest?</prompt>
+				<answer>I seek the (Holy )?Grail</answer> 
+			</question>
+			<question> 
+				<prompt>What is the average airspeed velocity of an unlaiden swallow?</prompt>
+				<answer>.*African or European.*</answer>
+			</question>
+		</questionList>
+	</destination>
+	
+	<destination name="Grainger Library" latitude="40.112438" longitude="-88.226858">
+		<hintList>
+			<textHint>This building was made possible by a donation of over $18 million by the founder of a mail-order electrical supplies company.</textHint>
+			<textHint>Hard to disturb reader guards the main entrance.</textHint>
+			<imageHint src="front.jpg"/>
+			<radarHint/>
+		</hintList>
+		<questionList>
+			<question> 
+				<prompt>What is your name?</prompt>
+				<answer>Arthur</answer> 
+			</question>
+			<question> 
+				<prompt>What is your quest?</prompt>
+				<answer>I seek the Holy Grail</answer> 
+			</question>
+			<question> 
+				<prompt>What is the average airspeed velocity of an unlaiden swallow?</prompt>
+				<answer>What do you mean? An African or European swallow?</answer>
+			</question>
+		</questionList>
+	</destination>
+</destinationList>

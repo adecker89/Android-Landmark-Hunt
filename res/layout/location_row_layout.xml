@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="wrap_content" android:layout_height="wrap_content">
+    <LinearLayout android:id="@+id/linearLayout1" android:layout_height="fill_parent" android:layout_width="wrap_content">
+        <TextView android:id="@+id/list_item_number" android:layout_height="wrap_content" android:layout_width="wrap_content" android:textSize="30px" android:text="1." android:layout_marginRight="10sp"></TextView>
+        <ImageView android:layout_marginTop="4px" android:layout_height="wrap_content" android:layout_width="22px" android:layout_marginLeft="4px" android:id="@+id/list_item_icon" android:src="@drawable/icon" android:layout_marginRight="4px" android:visibility="gone"></ImageView>
+        <TextView android:id="@+id/list_item_label" android:text="TextView" android:layout_height="wrap_content" android:layout_width="fill_parent" android:textSize="30px"></TextView>
+    </LinearLayout>
+	<!--CheckBox android:inputType="none" android:layout_height="wrap_content" android:layout_width="wrap_content" android:clickable="false" android:id="@+id/list_item_check" android:editable="false" android:layout_alignParentRight="true" android:checked="true"-->
+	<TextView android:layout_width="wrap_content" android:text="TextView" android:id="@+id/list_item_points" android:layout_centerVertical="true" android:layout_alignParentRight="true" android:layout_alignParentTop="true" android:layout_height="fill_parent"></TextView>
+</RelativeLayout>

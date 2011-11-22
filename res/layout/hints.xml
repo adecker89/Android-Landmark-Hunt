@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout	xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="fill_parent" android:layout_height="fill_parent" android:orientation="vertical" android:scrollbars="none">
+	<TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:padding="6sp" android:layout_alignParentTop="true" android:text="Location #1" android:textSize="28sp" android:layout_centerHorizontal="false" android:id="@+id/hints_title"></TextView>
+	  
+	<ScrollView android:id="@+id/scrollLayout" android:layout_height="wrap_content" android:scrollbars="none" android:layout_above="@+id/new_hint_button" android:layout_width="fill_parent" android:layout_below="@+id/hints_title">  
+		<LinearLayout android:id="@+id/hintLayout" android:layout_height="fill_parent" android:layout_width="fill_parent" android:orientation="vertical"/>
+	</ScrollView>
+	<Button android:text="New Hint" android:layout_marginLeft="40px" android:layout_marginTop="5px" android:layout_height="wrap_content" android:layout_marginBottom="5px" android:textSize="18sp" android:layout_width="fill_parent" android:layout_marginRight="40px" android:id="@+id/new_hint_button" android:layout_above="@+id/hints_point_total"></Button>
+	<TextView android:layout_height="wrap_content" android:layout_alignParentBottom="true" android:layout_width="wrap_content" android:text="Total Points:" android:id="@+id/hints_point_total"></TextView>
+	<TextView android:layout_height="wrap_content" android:layout_width="wrap_content" android:text="Points Remaining:" android:id="@+id/hints_points_remaining" android:layout_alignParentRight="true" android:layout_alignParentBottom="true"></TextView>
+</RelativeLayout>

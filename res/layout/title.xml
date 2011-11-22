@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:gravity="center" android:layout_height="fill_parent" android:layout_width="fill_parent" android:background="@color/black">
+    <ImageView android:layout_alignParentTop="true" android:id="@+id/main_title" android:layout_width="fill_parent" android:src="@drawable/bang_title" android:scaleType="fitCenter" android:layout_height="wrap_content" android:layout_margin="10sp"></ImageView>
+    <LinearLayout android:layout_height="wrap_content" android:id="@+id/title_button_layout" android:layout_alignParentBottom="true" android:layout_width="fill_parent" android:gravity="center" android:orientation="vertical">
+        <Button android:id="@+id/title_new_button" android:text="New Scavenger Hunt" android:layout_height="wrap_content" android:layout_width="fill_parent" android:layout_marginLeft="40px" android:layout_marginRight="40px" android:layout_marginBottom="5px"></Button>
+        <Button android:id="@+id/title_continue_button" android:layout_height="wrap_content" android:text="Continue Scavenger Hunt" android:layout_width="fill_parent" android:layout_marginLeft="40px" android:layout_marginRight="40px" android:layout_marginBottom="10px"></Button>
+    </LinearLayout>
+</RelativeLayout>
